@@ -17,4 +17,4 @@ spring:
     name: eureka
 # 端口号
 server:
-  port: 8760
+  port: 8761
