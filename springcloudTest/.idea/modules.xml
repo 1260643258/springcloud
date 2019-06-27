@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../springcloudTest/eureka/eureka.iml" filepath="$PROJECT_DIR$/../springcloudTest/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudTest.iml" filepath="$PROJECT_DIR$/springcloudTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloudTest/webtest/webtest.iml" filepath="$PROJECT_DIR$/../springcloudTest/webtest/webtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloudTest/zuul/zuul.iml" filepath="$PROJECT_DIR$/../springcloudTest/zuul/zuul.iml" />
+    </modules>
+  </component>
+</project>

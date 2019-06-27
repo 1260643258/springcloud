@@ -1,0 +1,12 @@
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+# ������ ������Ҫ ������ config �������Ļ��� ������Ϊ��ʶ�Ҷ�Ӧ�� ����
+spring:
+  application:
+    name: webtest
+# ���õ�ǰ��Ŀ�˿ں�
+server:
+  port: 8763

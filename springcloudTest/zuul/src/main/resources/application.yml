@@ -1,0 +1,24 @@
+
+server:
+  port: 8764
+
+#���������
+spring:
+  application:
+    name: zuul
+
+#ָ��ע�����ĵ�ַ
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+#�Զ���·��ӳ��
+zuul:
+  routes:
+    order-service: /apigateway/order/**
+    product-service: /apigateway/product/**
+  #ͳһ���Ϊ��������ã�������ں���
+  ignored-patterns: /*-service/**
+  #�����������񣬶����ṩ�ӿ�
+  ignored-services: order-service
