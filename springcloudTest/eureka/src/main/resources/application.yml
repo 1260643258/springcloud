@@ -1,20 +1,20 @@
 
-# ±¾ÉíÊÇ×¢²áÖĞĞÄ£¬µ«ÊÇÒ²ĞèÒª×¢²á£¬ÕâÀï¿ÉÒÔÏò×Ô¼º×¢²á
+
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-    # ²»ÔÚÒ³ÃæÉÏÏÔÊ¾µ±Ç° ·şÎñ
+
     register-with-eureka: false
-    # ÎªtrueÊ±£¬¿ÉÒÔÆô¶¯£¬µ«±¨Òì³££ºCannot execute request on any known server
+
     fetch-registry: false
-# µ±Ó¦ÓÃÉÏÏßÂÊ¹ıµÍÊ±£¬eureka»áÆô¶¯±£»¤»úÖÆ£¬Ä¬ÈÏÈ·¶¨µ±Ç°·şÎñÊÇ¿ªÆôµÄ£¬¿ª·¢ »·¾³ÖĞ¾¡Á¿¹Ø±Õ£¨ÉèÖÃÎªfalse£©
+
   server:
     enable-self-preservation: false
-# ·şÎñÃû £¬ºÜÖØÒª £¬ºóÆÚ config ÅäÖÃÖĞĞÄ»áÒÔ ·şÎñÃûÎª±êÊ¶ÕÒ¶ÔÓ¦µÄ ·şÎñ
+#
 spring:
   application:
     name: eureka
-# ÉèÖÃµ±Ç°ÏîÄ¿¶Ë¿ÚºÅ
+# ç«¯å£å·
 server:
-  port: 8761
+  port: 8760
